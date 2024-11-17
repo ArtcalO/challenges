@@ -4,7 +4,6 @@ argument (a number), and returns the square root of the number
 if it is divisible by 5, returns its remainder if it is not divisible by 
 5. 
 """
-
 def divide_or_square(number):
     return number**(1/2) if number % 5 == 0  else number%5
 
